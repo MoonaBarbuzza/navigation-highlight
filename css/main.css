@@ -1,16 +1,16 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    margin: 0;
-    font-family: georgia;
-    font-size: 1.125rem;
-    color: #2f2d13;
+  margin: 0;
+  font-family: Georgia;
+  font-size: 1.125rem;
+  color: #2f2d13;
 }
 
 header {
@@ -19,17 +19,17 @@ header {
 }
 
 h2 {
-font-family: "Sigmar One";
-font-size: 1.875rem;
-  color: #cc1465;
+  font-family: "Sigmar One";
+  font-size: 1.875rem;
+  color: #b20953;
 }
 
 h1 {
   font-family: "Sigmar One";
   font-size: 3rem;
   color: #cc1465;
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 .nav {
@@ -39,9 +39,10 @@ h1 {
 
 .nav li {
   font-size: 1.125rem;
-  border-radius: 10px;
+  border-radius: 20px;
   display: inline-block;
   padding: .5em;
+  margin-bottom: 1em;
 }
 
 .nav a {
@@ -60,4 +61,8 @@ footer {
   background-color: #ffe500;
   padding: 1em;
   text-align: center;
+}
+
+.nav .current {
+  background-color: #cc1465;
 }
